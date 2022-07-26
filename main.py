@@ -32,10 +32,10 @@ app = FastAPI()
 def hello(name = None):
 
     if name is None:
-        text = 'Hey! ' + str(author) + 'Your Claim# is ' + claimnumber
+        text = 'Hi! ' + str(author) + ' your Claim# is ' + claimnumber
 
     else:
-        text = 'Hey ' + name + '!'
+        text = 'Hi ' + name + '!'
 
     return text
 
